@@ -12,7 +12,8 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  config.vm.box = "hashicorp/precise64"
+  #config.vm.box = "hashicorp/precise64"
+  config.vm.box = "afterdocker"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -26,11 +27,11 @@ Vagrant.configure("2") do |config|
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
-  # config.vm.network "private_network", ip: "192.168.33.10"
+  config.vm.network "private_network", ip: "192.168.33.10"
   #config.vm.network "public_network"
-  config.vm.network "public_network", bridge: "en0: Wi-Fi (AirPort)"
+  #config.vm.network "public_network", bridge: "en0: Wi-Fi (AirPort)"
   # Iterating the loop for three times
-    (1..2).each do |i|
+    (1..1).each do |i|
         # Defining VM properties
         config.vm.define "nvm#{i}" do |node|
             # Specifying the provider as VirtualBox and naming the VM's
