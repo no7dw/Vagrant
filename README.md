@@ -41,8 +41,8 @@ solved:
 
     `config.vm.network "private_network", ip: "192.168.33.10"`
 
-[ref](https://github.com/mitchellh/vagrant/issues/6426)
-[ref](https://github.com/mitchellh/vagrant/issues/6829)
+ - [ref](https://github.com/mitchellh/vagrant/issues/6426)
+ - [ref](https://github.com/mitchellh/vagrant/issues/6829)
 
 ####  Vagrant was unable to mount VirtualBox shared folders 
    
@@ -66,7 +66,7 @@ solved:
     `sudo ln -s /opt/VBoxGuestAdditions-4.3.10/lib/VBoxGuestAdditions /usr/lib/VBoxGuestAdditions
     vagrant plugin install vagrant-vbguest`
 
-[ref](http://stackoverflow.com/questions/27992354/vagrant-error-failed-to-mount-folders-in-linux-guest-after-halt-or-reload/27992355#27992355)
-[ref](http://stackoverflow.com/questions/22717428/vagrant-error-failed-to-mount-folders-in-linux-guest)
-[ref](https://www.virtualbox.org/ticket/12879)
+ - [ref](http://stackoverflow.com/questions/27992354/vagrant-error-failed-to-mount-folders-in-linux-guest-after-halt-or-reload/27992355#27992355)
+ - [ref](http://stackoverflow.com/questions/22717428/vagrant-error-failed-to-mount-folders-in-linux-guest)
+ - [ref](https://www.virtualbox.org/ticket/12879)
 
